@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color{
+    color: #FD6E0A;
+}
+
+.primary-btn{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background: #FD6E0A;
+    border: 0px;
+    height: 64px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.optional-btn{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    background: white;
+    height: 64px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+/* Header and Navigation */
+
+header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding: 50px 0px;
+}
+
+nav h2{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+/* Header and Banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.banner-discription{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+
+section{
+    margin-bottom: 130px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    border-radius: 10px;
+}
+
+.about p{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.element{
+    font-size: 20px;
+    color: #757575;
+}
+
+.value{
+    font-weight: 700;
+    font-size: 20px;
+}
