@@ -43,7 +43,7 @@ header{
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right,40px;
 }
 
 nav{
@@ -119,11 +119,11 @@ section{
     border-radius: 10px;
 }
 
-.about p{
+.descrip{
     color: #757575;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .table{
@@ -140,4 +140,128 @@ section{
 .value{
     font-weight: 700;
     font-size: 20px;
+}
+
+.do-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    height: 337px;
+    width: 200px;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
+
+.content h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content p{
+    color: #757575;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-header{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.box{
+    padding-right: 100px;
+}
+
+.box-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.box-address{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.box-description{
+    color: #757575;
+}
+
+hr{
+    color: #D1D1D1;
+    margin: 30px 0px;
+}
+
+.edu{
+    width: 45%;
+}
+
+.exp{
+    width: 45%;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer{
+    background: #FFF8F3;
+    display: flex;
+    padding: 130px 200px;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.connect{
+    width: 50%;
+    padding-right: 150px;
+}
+
+.msg{
+    width: 50%;
+    padding-right: 150px;
+}
+
+.footer p{
+    color: #474747;
+    padding-bottom: 30px;
+}
+
+.footer img{
+    margin-right: 24px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    padding: 18px 30px;
+    width: 100%;
+}
+
+.form input{
+    height: 64px;
 }
